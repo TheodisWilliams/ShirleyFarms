@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 
-  background-image: url(../img/agriculture-arable-barley-265216.jpg);
+  background-image: url(./img/agriculture-arable-barley-265216.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -128,7 +128,7 @@ a:hover {
 }
 /*Seed info*/
 .seed_info {
-  background-image: url(../img/seed_background.png);
+  background-image: url(./img/seed_background.png);
   text-align: center;
   background-position: bottom;
   background-position: cover;
