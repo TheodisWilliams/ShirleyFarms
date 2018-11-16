@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 
-  background-image: url("/img/agriculture-arable-barley-265216.jpg");
+  background-image: url(../img/agriculture-arable-barley-265216.jpg);
   background-position: center;
   background-size: cover;
 }
