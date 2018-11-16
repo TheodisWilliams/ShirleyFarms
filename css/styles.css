@@ -1,0 +1,220 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-image: url("/img/agriculture-arable-barley-265216.jpg");
+  background-position: center;
+  background-size: cover;
+}
+/*jumbotron*/
+/*
+#front_jumbotron {
+  background-image: url("/img/logo.gif");
+
+  height: 600px;
+  width: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+
+.front_tron {
+  text-align: center;
+  position: absolute;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding-top: 15%;
+  background-color: #cccccc;
+  opacity: 0.3;
+}
+.strain_btn {
+  align-self: center;
+  margin: auto;
+}
+
+.jumbotron {
+  /*background-image: url("/img/logo.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0px;*/
+}
+.jumbo_img {
+  height: 100%;
+  width: 100%;
+}
+.about-us {
+}
+.front_page {
+  /*
+  background-image: url("/img/background1.png");
+  background-position: center;
+  background-size: cover;*/
+  background-color: black;
+}
+.footer {
+  background-color: black;
+}
+.new_farm {
+  width: 100%;
+  height: 100%;
+}
+varieties {
+  background-color: black;
+  width: 100%;
+}
+.variety {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+.front_jumbo {
+  width: 100%;
+  height: 100%;
+}
+.contact_sec {
+  background-color: black;
+}
+.seed {
+  background-color: black;
+  padding-bottom: 25px;
+}
+.seeds {
+  display: inline-block;
+  width: 23%;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.seeds1 {
+  display: inline-block;
+  width: 32.5%;
+  height: 100%;
+  text-align: center;
+}
+/* a tag*/
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a {
+  color: white;
+  font-size: 40px;
+}
+a:hover {
+  color: yellow;
+}
+.our_story {
+  color: white;
+}
+.contact_sec {
+  color: white;
+  padding-top: 20px;
+  width: 100%;
+}
+/*Seed_table*/
+
+.table {
+  background-color: black;
+  text-align: center;
+}
+.tables {
+  background-color: black;
+  text-align: center;
+}
+/*Seed info*/
+.seed_info {
+  background-image: url(../img/seed_background.png);
+  text-align: center;
+  background-position: bottom;
+  background-position: cover;
+}
+.seed_profile {
+  background-color: black;
+}
+.seed_info,
+h1 {
+  padding-bottom: 25px;
+  padding-top: 5px;
+}
+.seed_info,
+p {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+.characteristics {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: white;
+} /*Button*/
+button {
+  background-color: darkgray;
+}
+/*Footer*/
+.footer {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 300px) {
+  .seed,
+  a {
+    font-size: 12px;
+  }
+  .table {
+    font-size: 15px;
+  }
+  .seed_info,
+  h1 {
+    font-size: 30px;
+  }
+  .seed_info,
+  p {
+    font-size: 20px;
+  }
+  .contact_sec,
+  h4 {
+    font-size: 20px;
+  }
+}
+
+/*/ Medium devices (tablets, 768px and up)*/
+@media (min-width: 700px) {
+  .seed,
+  a {
+    font-size: 20px;
+  }
+}
+
+/*/ Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .seed_info,
+  h1 {
+    font-size: 30px;
+  }
+  .seed_info,
+  p {
+    font-size: 20px;
+  }
+}
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .seed,
+  a {
+    font-size: 40px;
+  }
+  .seed_info,
+  h1 {
+    font-size: 40px;
+  }
+}
